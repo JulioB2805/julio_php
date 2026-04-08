@@ -1,0 +1,73 @@
+/*--- check --*/
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg,#6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*--- check ---*/ 
+h2{
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+/*--- Titulo y subtitulo ---*/
+h2{
+    font-size: 1.2em;
+    color: #f7f4f4;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+/*---ver---*/
+/*---Contenedor principal ---*/
+.traductor-container {
+    background: rgba(255, 255,255,0.95);
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+}
+
+/*---check---*/
+/*--- barra de texto ---*/
+input[type="text"]{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1em;
+    border-radius : 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+input[type="text"]:focus{
+    border-color: #2575fc;
+    box-shadow: 0 0 10px rgba(37,177,252,0.3);
+    outline: none;
+}
+
+/*---check---*/
+/*--- Botón ---*/
+.boton-buscar{
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-buscar:hover {
+    background-color: #6a11cb;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
